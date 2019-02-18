@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{CAEEDDD3-581F-4BF5-B1EA-2C81E956F259}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/CalendarController.cs">
+    <Files>
+      <File FileName="Views/Calendar/Index.cshtml" Line="91" Column="10" />
+      <File FileName="Content/Site.css" Line="45" Column="15" />
+      <File FileName="Scripts/Calendar.js" Line="19" Column="1" />
+      <File FileName="Controllers/CalendarController.cs" Line="27" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Calendar" expanded="True">
+            <Node name="Calendar" expanded="True">
+              <Node name="App_Start" expanded="True" />
+              <Node name="Content" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="CalendarController.cs" selected="True" />
+              </Node>
+              <Node name="Scripts" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Calendar" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kevinpalmalopez/Projects/Calendar/Calendar/Calendar.Application/Services/CalendarService.cs" relfile="Calendar.Application/Services/CalendarService.cs" line="20" column="10" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Calendar PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
