@@ -81,7 +81,7 @@ function GetWeather()
         type: "GET",
 	    dataType: "json",
 	    contentType: "application/json",
-        url: "GetWeather/",
+        url: "Calendar/GetWeather/",
         contentType: "application/json; charset=utf-8",
         beforeSend: function(){
             $('body').loading();
