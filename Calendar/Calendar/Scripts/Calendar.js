@@ -18,7 +18,8 @@ $(".pMonth").text($("#month option:selected").text());
 $(".pYear").text($("#year option:selected").text());
 
 $("#tableCalendar").on("click", "td", function() {
-     $(".pDay").text($(this).children(":first").text());
+	if ($(this).children(":first").text() != "")
+     		$(".pDay").text($(this).children(":first").text());
 });
 
 GetWeather();
