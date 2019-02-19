@@ -24,7 +24,7 @@ $("#tableCalendar").on("click", "td", function() {
 GetWeather();
 
 function getCalendar(Month, Year) {
-    var firstDay = (new Date(Year, Month)).getDay();
+    var firstDay = (new Date(Year, Month)).getDay()-1;
     var daysInMonth = 32 - new Date(Year, Month, 32).getDate();
     var tbl = $("#calendar-body");
 
