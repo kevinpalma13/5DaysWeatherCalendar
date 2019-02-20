@@ -25,7 +25,7 @@ $("#tableCalendar").on("click", "td", function() {
 GetWeather();
 
 function getCalendar(Month, Year) {
-    var firstDay = (new Date(Year, Month)).getDay()-1;
+    var firstDay = (new Date(Year, Month)).getDay() - 1;
     var daysInMonth = 32 - new Date(Year, Month, 32).getDate();
     var tbl = $("#calendar-body");
 
@@ -38,7 +38,7 @@ function getCalendar(Month, Year) {
         var row = $("<tr></tr>");
 
         for (var countCell = 0; countCell < 7; countCell++) {
-            if (countRow === 0 && countCell < firstDay) {
+            if ((countRow === 0 && countCell < firstDay) || (countRow === 0 && firstDay < 0 && countCell < 6)) {
                 var cell = $("<td></td>");
                 var text = "";
                 cell.append(text);
